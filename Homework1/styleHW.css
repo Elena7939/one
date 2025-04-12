@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    padding-left: calc(50% - 720px);
+    padding-right: calc(50% - 720px);
+}
+
+.index {
+    height: 800px;
+    background-image: url(img/top.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

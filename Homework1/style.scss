@@ -1,0 +1,338 @@
+$text-blac: rgb(32, 32, 39);
+$text-withe: rgb(255, 255, 255);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.index-top {
+    height: 800px;
+    background-image: url(img/top.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__title {
+        padding-top: 196px;
+    }
+
+    &__title-text {
+        max-width: 768px;
+        color: $text-blac;
+        font-family: Montserrat;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+
+    }
+
+    &__title-description {
+        padding-top: 24px;
+        color: $text-blac;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__button {
+        cursor: pointer;
+        margin-top: 48px;
+        width: 247px;
+        height: 66px;
+        color: $text-withe;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        letter-spacing: 0%;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid $text-blac;
+        border-radius: 60px;
+        background: $text-blac;
+        color: $text-withe;
+
+        &:hover {
+            border: 1px solid $text-withe;
+            color: $text-blac;
+            background: $text-withe;
+        }
+    }
+
+
+}
+
+.index-game {
+    background-image: url(img/top-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &__game {
+        border-radius: 30px;
+        box-shadow: 0px 12.61px 42.25px -7.57px rgba(0, 0, 0, 0.13);
+        background: $text-withe;
+        transition: 0.5s ease-in-out;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+
+
+        &-1 {
+            width: 378px;
+            height: 473px;
+        }
+
+        &-4 {
+            width: 378px;
+            height: 551px;
+        }
+
+        &-2 {
+            width: 378px;
+            height: 512px;
+        }
+
+        &-5 {
+            width: 378px;
+            height: 512px;
+        }
+
+        &-3 {
+            width: 378px;
+            height: 473px;
+        }
+
+        &-6 {
+            width: 378px;
+            height: 551px;
+        }
+    }
+
+
+    &__head-box {
+        padding-top: 94px;
+
+    }
+
+    &__head {
+        color: $text-withe;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__text {
+        max-width: 788px;
+        color: rgb(255, 255, 255);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__box {
+        display: flex;
+        gap: 32px;
+        padding-top: 72px;
+        padding-bottom: 50px;
+
+
+        &-1 {
+            display: flex;
+            gap: 32px;
+            flex-direction: column;
+        }
+
+        &-2 {
+            display: flex;
+            gap: 32px;
+            flex-direction: column;
+        }
+
+        &-3 {
+            display: flex;
+            gap: 32px;
+            flex-direction: column;
+        }
+    }
+
+
+
+    &__name-box {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 36px;
+    }
+
+    &__name {
+        width: 108px;
+        height: 36px;
+        border-radius: 52.58px;
+        background: rgb(247, 247, 247);
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__heading {
+        margin-top: 16px;
+        color: $text-blac;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 39px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+
+
+
+
+}
+
+.index-mini {
+    background-image: url(img/top-2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 144px;
+
+    &__head {
+        color: $text-withe;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 78px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__all {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    &__game {
+        width: 1200px;
+        height: 500px;
+        background-color: $text-withe;
+        display: flex;
+        flex-direction: row;
+        border-radius: 30px;
+        justify-content: space-between;
+
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 48px;
+        padding-inline: 48px;
+
+    }
+
+    &__text-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    &__title {
+        color: $text-blac;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 59px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__text {
+        color: rgb(32, 32, 39);
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+    &__button {
+        cursor: pointer;
+        margin-top: 48px;
+        width: 247px;
+        height: 66px;
+        color: $text-withe;
+        font-family: Montserrat;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 141.69%;
+        letter-spacing: 0%;
+        text-align: center;
+        box-sizing: border-box;
+        border: 1px solid $text-blac;
+        border-radius: 60px;
+        background: $text-blac;
+        color: $text-withe;
+
+        &:hover {
+            border: 1px solid $text-blac;
+            color: $text-blac;
+            background: $text-withe;
+            transition: 0.5s ease-in-out;
+        }
+    }
+
+
+}
+
+.footer {
+
+    background-image: url(img/top.jpeg);
+    height: 150px;
+
+    &__position {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__text {
+        padding-top: 61px;
+        color: $text-blac;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 29px;
+        letter-spacing: 0px;
+    }
+
+}
