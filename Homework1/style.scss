@@ -74,9 +74,12 @@ a {
         color: $text-withe;
 
         &:hover {
-            border: 1px solid $text-withe;
+
+            border: 1px solid $text-blac;
             color: $text-blac;
             background: $text-withe;
+            transition: 0.5s ease-in-out;
+
         }
     }
 
