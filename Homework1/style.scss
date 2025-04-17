@@ -105,33 +105,33 @@ a {
 
 
         &-1 {
-            width: 378px;
-            height: 473px;
+            max-width: 378px;
+            max-height: 473px;
         }
 
         &-4 {
-            width: 378px;
-            height: 551px;
+            max-width: 378px;
+            max-height: 551px;
         }
 
         &-2 {
-            width: 378px;
-            height: 512px;
+            max-width: 378px;
+            max-height: 512px;
         }
 
         &-5 {
-            width: 378px;
-            height: 512px;
+            max-width: 378px;
+            max-height: 512px;
         }
 
         &-3 {
-            width: 378px;
-            height: 473px;
+            max-width: 378px;
+            max-height: 473px;
         }
 
         &-6 {
-            width: 378px;
-            height: 551px;
+            max-width: 378px;
+            max-height: 551px;
         }
     }
 
@@ -339,3 +339,5 @@ a {
     }
 
 }
+
+@import 'mobil'
