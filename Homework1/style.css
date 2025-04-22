@@ -219,6 +219,9 @@ a {
 .index-mini__text-box {
   flex-direction: column;
   align-items: flex-start;
+  padding-bottom: 36px;
+  gap: 24px;
+  display: flex;
 }
 .index-mini__title {
   color: rgb(32, 32, 39);
@@ -236,8 +239,6 @@ a {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
-  padding-top: 24px;
-  padding-bottom: 36px;
 }
 .index-mini__button {
   cursor: pointer;
@@ -326,24 +327,40 @@ a {
     padding-top: 48px;
     padding-bottom: 48px;
   }
-  .index-mini__all {
-    gap: 24px;
-    max-width: 343px;
-    min-height: 528px;
-  }
   .index-mini__title {
     font-size: 32px;
     font-weight: 700;
     line-height: 39px;
   }
+  .index-mini__img {
+    max-width: 343px;
+    max-height: 284.93px;
+  }
   .index-mini__game {
     display: flex;
     flex-direction: column;
+    max-width: 343px;
+    min-height: 528px;
   }
   .index-mini__description {
     display: flex;
     order: 2;
     flex-direction: column;
+    padding-top: 29px;
+    padding-left: 29px;
+    padding-right: 29px;
+  }
+  .index-mini__text-box {
+    padding-top: 16px;
+    padding-bottom: 32px;
+  }
+  .index-mini__text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
   }
   .index-mini__button {
     width: 285px;

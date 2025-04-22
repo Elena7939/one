@@ -269,6 +269,9 @@ a {
     &__text-box {
         flex-direction: column;
         align-items: flex-start;
+        padding-bottom: 36px;
+        gap: 24px;
+        display: flex;
     }
 
     &__title {
@@ -288,8 +291,7 @@ a {
         line-height: 32px;
         letter-spacing: 0px;
         text-align: left;
-        padding-top: 24px;
-        padding-bottom: 36px;
+
     }
 
     &__button {
