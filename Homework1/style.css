@@ -186,6 +186,10 @@ a {
   background-size: cover;
   padding-bottom: 144px;
 }
+.index-mini__img {
+  width: 600px;
+  height: 500px;
+}
 .index-mini__head {
   color: rgb(255, 255, 255);
   font-size: 64px;
@@ -201,7 +205,6 @@ a {
 }
 .index-mini__game {
   width: 1200px;
-  height: 500px;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
@@ -219,7 +222,6 @@ a {
 .index-mini__text-box {
   flex-direction: column;
   align-items: flex-start;
-  padding-bottom: 36px;
   gap: 24px;
   display: flex;
 }
@@ -241,6 +243,7 @@ a {
   text-align: left;
 }
 .index-mini__button {
+  margin-top: 36px;
   cursor: pointer;
   width: 247px;
   height: 66px;
@@ -256,6 +259,9 @@ a {
   border-radius: 60px;
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
+}
+.index-mini__button-box {
+  padding-bottom: 32px;
 }
 .index-mini__button:hover {
   border: 1px solid rgb(32, 32, 39);
@@ -298,6 +304,10 @@ a {
     flex-direction: column;
     align-content: center;
     align-items: center;
+    width: 343px;
+  }
+  .index-top__text-box {
+    width: 296px;
   }
   .index-top__title-text {
     font-size: 40px;
@@ -333,14 +343,16 @@ a {
     line-height: 39px;
   }
   .index-mini__img {
-    max-width: 343px;
-    max-height: 284.93px;
+    border-radius: 30px;
+    width: 343px;
+    height: 286px;
   }
   .index-mini__game {
     display: flex;
     flex-direction: column;
     max-width: 343px;
-    min-height: 528px;
+    align-items: center;
+    justify-content: normal;
   }
   .index-mini__description {
     display: flex;
@@ -349,10 +361,10 @@ a {
     padding-top: 29px;
     padding-left: 29px;
     padding-right: 29px;
+    gap: 32px;
   }
   .index-mini__text-box {
-    padding-top: 16px;
-    padding-bottom: 32px;
+    gap: 16px;
   }
   .index-mini__text {
     color: rgb(0, 0, 0);
@@ -370,9 +382,10 @@ a {
     line-height: 141.69%;
     align-items: center;
     text-align: center;
+    margin-top: 0px;
   }
   .footer__text {
-    color: rgb(0, 0, 0);
+    color: rgb 0, 0, 0;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;

@@ -230,6 +230,11 @@ a {
     background-size: cover;
     padding-bottom: 144px;
 
+    &__img {
+        width: 600px;
+        height: 500px;
+    }
+
     &__head {
         color: $text-withe;
         font-size: 64px;
@@ -247,7 +252,6 @@ a {
 
     &__game {
         width: 1200px;
-        height: 500px;
         background-color: $text-withe;
         display: flex;
         flex-direction: row;
@@ -269,7 +273,6 @@ a {
     &__text-box {
         flex-direction: column;
         align-items: flex-start;
-        padding-bottom: 36px;
         gap: 24px;
         display: flex;
     }
@@ -295,6 +298,7 @@ a {
     }
 
     &__button {
+        margin-top: 36px;
         cursor: pointer;
         width: 247px;
         height: 66px;
@@ -311,12 +315,18 @@ a {
         background: $text-blac;
         color: $text-withe;
 
+        &-box {
+            padding-bottom: 32px;
+        }
+
         &:hover {
             border: 1px solid $text-blac;
             color: $text-blac;
             background: $text-withe;
             transition: 0.5s ease-in-out;
         }
+
+
     }
 
 
