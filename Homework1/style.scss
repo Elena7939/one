@@ -142,6 +142,7 @@ a {
     }
 
     &__head {
+        padding-bottom: 24px;
         color: $text-withe;
         font-size: 64px;
         font-weight: 700;
@@ -197,6 +198,7 @@ a {
     }
 
     &__name {
+        color: black;
         width: 108px;
         height: 36px;
         border-radius: 52.58px;
