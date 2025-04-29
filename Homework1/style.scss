@@ -105,33 +105,33 @@ a {
 
 
         &-1 {
-            width: 378px;
-            height: 473px;
+            max-width: 378px;
+            max-height: 473px;
         }
 
         &-4 {
-            width: 378px;
-            height: 551px;
+            max-width: 378px;
+            max-height: 551px;
         }
 
         &-2 {
-            width: 378px;
-            height: 512px;
+            max-width: 378px;
+            max-height: 512px;
         }
 
         &-5 {
-            width: 378px;
-            height: 512px;
+            max-width: 378px;
+            max-height: 512px;
         }
 
         &-3 {
-            width: 378px;
-            height: 473px;
+            max-width: 378px;
+            max-height: 473px;
         }
 
         &-6 {
-            width: 378px;
-            height: 551px;
+            max-width: 378px;
+            max-height: 551px;
         }
     }
 
@@ -142,6 +142,7 @@ a {
     }
 
     &__head {
+        padding-bottom: 24px;
         color: $text-withe;
         font-size: 64px;
         font-weight: 700;
@@ -197,6 +198,7 @@ a {
     }
 
     &__name {
+        color: black;
         width: 108px;
         height: 36px;
         border-radius: 52.58px;
@@ -230,6 +232,11 @@ a {
     background-size: cover;
     padding-bottom: 144px;
 
+    &__img {
+        width: 600px;
+        height: 500px;
+    }
+
     &__head {
         color: $text-withe;
         font-size: 64px;
@@ -247,7 +254,6 @@ a {
 
     &__game {
         width: 1200px;
-        height: 500px;
         background-color: $text-withe;
         display: flex;
         flex-direction: row;
@@ -261,13 +267,16 @@ a {
         flex-direction: column;
         align-items: flex-start;
         padding-top: 48px;
-        padding-inline: 48px;
+        padding-left: 48px;
+        padding-right: 48px;
 
     }
 
     &__text-box {
         flex-direction: column;
         align-items: flex-start;
+        gap: 24px;
+        display: flex;
     }
 
     &__title {
@@ -287,11 +296,12 @@ a {
         line-height: 32px;
         letter-spacing: 0px;
         text-align: left;
+
     }
 
     &__button {
+        margin-top: 36px;
         cursor: pointer;
-        margin-top: 48px;
         width: 247px;
         height: 66px;
         color: $text-withe;
@@ -307,12 +317,18 @@ a {
         background: $text-blac;
         color: $text-withe;
 
+        &-box {
+            padding-bottom: 32px;
+        }
+
         &:hover {
             border: 1px solid $text-blac;
             color: $text-blac;
             background: $text-withe;
             transition: 0.5s ease-in-out;
         }
+
+
     }
 
 
@@ -339,3 +355,5 @@ a {
     }
 
 }
+
+@import 'mobil'

@@ -88,33 +88,34 @@ a {
   transform: scale(1.1);
 }
 .index-game__game-1 {
-  width: 378px;
-  height: 473px;
+  max-width: 378px;
+  max-height: 473px;
 }
 .index-game__game-4 {
-  width: 378px;
-  height: 551px;
+  max-width: 378px;
+  max-height: 551px;
 }
 .index-game__game-2 {
-  width: 378px;
-  height: 512px;
+  max-width: 378px;
+  max-height: 512px;
 }
 .index-game__game-5 {
-  width: 378px;
-  height: 512px;
+  max-width: 378px;
+  max-height: 512px;
 }
 .index-game__game-3 {
-  width: 378px;
-  height: 473px;
+  max-width: 378px;
+  max-height: 473px;
 }
 .index-game__game-6 {
-  width: 378px;
-  height: 551px;
+  max-width: 378px;
+  max-height: 551px;
 }
 .index-game__head-box {
   padding-top: 94px;
 }
 .index-game__head {
+  padding-bottom: 24px;
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
@@ -160,6 +161,7 @@ a {
   padding-bottom: 36px;
 }
 .index-game__name {
+  color: black;
   width: 108px;
   height: 36px;
   border-radius: 52.58px;
@@ -186,6 +188,10 @@ a {
   background-size: cover;
   padding-bottom: 144px;
 }
+.index-mini__img {
+  width: 600px;
+  height: 500px;
+}
 .index-mini__head {
   color: rgb(255, 255, 255);
   font-size: 64px;
@@ -201,7 +207,6 @@ a {
 }
 .index-mini__game {
   width: 1200px;
-  height: 500px;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
@@ -213,11 +218,14 @@ a {
   flex-direction: column;
   align-items: flex-start;
   padding-top: 48px;
-  padding-inline: 48px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
 .index-mini__text-box {
   flex-direction: column;
   align-items: flex-start;
+  gap: 24px;
+  display: flex;
 }
 .index-mini__title {
   color: rgb(32, 32, 39);
@@ -237,8 +245,8 @@ a {
   text-align: left;
 }
 .index-mini__button {
+  margin-top: 36px;
   cursor: pointer;
-  margin-top: 48px;
   width: 247px;
   height: 66px;
   color: rgb(255, 255, 255);
@@ -253,6 +261,9 @@ a {
   border-radius: 60px;
   background: rgb(32, 32, 39);
   color: rgb(255, 255, 255);
+}
+.index-mini__button-box {
+  padding-bottom: 32px;
 }
 .index-mini__button:hover {
   border: 1px solid rgb(32, 32, 39);
@@ -277,4 +288,111 @@ a {
   font-weight: 600;
   line-height: 29px;
   letter-spacing: 0px;
+}
+
+@media (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .index-top__title {
+    padding-top: 146px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 343px;
+  }
+  .index-top__text-box {
+    width: 296px;
+  }
+  .index-top__title-text {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    display: flex;
+    text-align: center;
+  }
+  .index-top__title-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+  }
+  .index-top__button {
+    margin-top: 36px;
+  }
+  .index-game {
+    display: none;
+  }
+  .index-mini__head {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .index-mini__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+  }
+  .index-mini__img {
+    border-radius: 30px;
+    width: 343px;
+    height: 286px;
+  }
+  .index-mini__game {
+    display: flex;
+    flex-direction: column;
+    max-width: 343px;
+    align-items: center;
+    justify-content: normal;
+  }
+  .index-mini__description {
+    display: flex;
+    order: 2;
+    flex-direction: column;
+    padding-top: 29px;
+    padding-left: 29px;
+    padding-right: 29px;
+    gap: 32px;
+  }
+  .index-mini__text-box {
+    gap: 16px;
+  }
+  .index-mini__text {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .index-mini__button {
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+  }
+  .footer__text {
+    color: rgb 0, 0, 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

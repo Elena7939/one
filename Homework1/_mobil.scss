@@ -1,0 +1,135 @@
+@media (max-width: 767px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .index-top {
+        &__title {
+            padding-top: 146px;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            align-items: center;
+            width: 343px;
+        }
+
+        &__text-box {
+            width: 296px;
+        }
+
+        &__title-text {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            display: flex;
+            text-align: center;
+
+        }
+
+        &__title-description {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+        }
+
+        &__button {
+            margin-top: 36px;
+        }
+    }
+
+    .index-game {
+        display: none;
+    }
+
+    .index-mini {
+        &__head {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 49px;
+            letter-spacing: 0px;
+            text-align: left;
+            padding-top: 48px;
+            padding-bottom: 48px;
+        }
+
+
+        &__title {
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+        }
+
+        &__img {
+            border-radius: 30px;
+            width: 343px;
+            height: 286px;
+
+
+        }
+
+        &__game {
+            display: flex;
+            flex-direction: column;
+            max-width: 343px;
+            align-items: center;
+            justify-content: normal
+        }
+
+        &__description {
+            display: flex;
+            order: 2;
+            flex-direction: column;
+            padding-top: 29px;
+            padding-left: 29px;
+            padding-right: 29px;
+            gap: 32px;
+        }
+
+        &__text-box {
+            gap: 16px;
+
+        }
+
+        &__text {
+            color: rgb(0, 0, 0);
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: left;
+
+        }
+
+        &__button {
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            align-items: center;
+            text-align: center;
+            margin-top: 0px;
+        }
+    }
+
+    .footer {
+        &__text {
+            color: rgb (0, 0, 0);
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 20px;
+            letter-spacing: 0px;
+            text-align: center;
+        }
+    }
+
+}
