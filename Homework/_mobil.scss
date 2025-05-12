@@ -42,10 +42,58 @@
 
         &__button {
             margin-top: 36px;
+            width: 285px;
+            height: 55px;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 141.69%;
+            letter-spacing: 0%;
+            text-align: center;
         }
 
         &__star-box {
             display: none;
+        }
+
+        &__star-mob {
+            display: block;
+
+            &-1 {
+                position: absolute;
+                z-index: -1;
+                top: -82px;
+                right: -95px;
+            }
+
+            &-2 {
+                position: absolute;
+                z-index: -1;
+                top: 64px;
+                left: 85px;
+            }
+
+            &-3 {
+                position: absolute;
+                z-index: -1;
+                top: 98px;
+                left: 30px;
+            }
+
+            &-4 {
+                position: absolute;
+                z-index: -1;
+                bottom: -37px;
+                right: 77px;
+            }
+
+            &-5 {
+                position: absolute;
+                z-index: -1;
+                bottom: -83px;
+                right: 25px;
+                ;
+            }
+
         }
     }
 

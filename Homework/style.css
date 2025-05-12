@@ -105,6 +105,9 @@ a {
   top: 68px;
   left: 36px;
 }
+.index-top__star-mob {
+  display: none;
+}
 
 .index-game {
   background-image: url(img/top-2.jpeg);
@@ -411,9 +414,49 @@ a {
   }
   .index-top__button {
     margin-top: 36px;
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
   }
   .index-top__star-box {
     display: none;
+  }
+  .index-top__star-mob {
+    display: block;
+  }
+  .index-top__star-mob-1 {
+    position: absolute;
+    z-index: -1;
+    top: -82px;
+    right: -95px;
+  }
+  .index-top__star-mob-2 {
+    position: absolute;
+    z-index: -1;
+    top: 64px;
+    left: 85px;
+  }
+  .index-top__star-mob-3 {
+    position: absolute;
+    z-index: -1;
+    top: 98px;
+    left: 30px;
+  }
+  .index-top__star-mob-4 {
+    position: absolute;
+    z-index: -1;
+    bottom: -37px;
+    right: 77px;
+  }
+  .index-top__star-mob-5 {
+    position: absolute;
+    z-index: -1;
+    bottom: -83px;
+    right: 25px;
   }
   .index-game {
     display: none;
