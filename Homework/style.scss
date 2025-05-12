@@ -28,8 +28,15 @@ a {
     background-position: center;
     background-size: cover;
 
+    &__top {
+        position: relative;
+        z-index: 2;
+    }
+
+
     &__title {
         padding-top: 196px;
+
     }
 
     &__title-text {
@@ -84,6 +91,43 @@ a {
     }
 
 
+    &__star-big {
+        position: absolute;
+        right: -607px;
+        top: -333px;
+        z-index: -1;
+    }
+
+    &__star-1 {
+        z-index: -1;
+        position: absolute;
+        right: 224px;
+        bottom: -96px;
+    }
+
+    ;
+
+    &__star-2 {
+        z-index: -1;
+        position: absolute;
+        right: 334px;
+        bottom: -20px;
+    }
+
+    &__star-3 {
+        z-index: -1;
+        position: absolute;
+        top: 93px;
+        left: -57px;
+    }
+
+    &__star-4 {
+        z-index: -1;
+        position: absolute;
+        top: 68px;
+        left: 36px;
+    }
+
 }
 
 .index-game {
@@ -91,6 +135,11 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    &__head-box {
+        position: relative;
+        z-index: 2;
+    }
 
     &__game {
         border-radius: 30px;
@@ -134,7 +183,6 @@ a {
             max-height: 551px;
         }
     }
-
 
     &__head-box {
         padding-top: 94px;
@@ -188,8 +236,6 @@ a {
         }
     }
 
-
-
     &__name-box {
         padding-top: 32px;
         padding-left: 32px;
@@ -219,10 +265,26 @@ a {
         text-align: left;
     }
 
+    &__star-1 {
+        z-index: -1;
+        position: absolute;
+        top: 110px;
+        right: -229px;
+    }
 
+    &__star-2 {
+        z-index: -1;
+        position: absolute;
+        top: 824px;
+        left: -78px;
+    }
 
-
-
+    &__star-3 {
+        z-index: -1;
+        position: absolute;
+        top: 771px;
+        left: -93px;
+    }
 }
 
 .index-mini {
@@ -238,6 +300,8 @@ a {
     }
 
     &__head {
+        padding-bottom: 70px;
+        padding-top: 46px;
         color: $text-withe;
         font-size: 64px;
         font-weight: 700;
@@ -250,10 +314,13 @@ a {
         display: flex;
         gap: 32px;
         flex-direction: column;
+        position: relative;
+        z-index: 2;
     }
 
     &__game {
         width: 1200px;
+        height: 500px;
         background-color: $text-withe;
         display: flex;
         flex-direction: row;
@@ -329,6 +396,38 @@ a {
         }
 
 
+    }
+
+    &__star-1 {
+        z-index: -1;
+        position: absolute;
+        top: -98px;
+        right: 7px;
+
+
+    }
+
+    &__star-2 {
+        z-index: -1;
+        position: absolute;
+        top: -65px;
+        right: -71px;
+
+    }
+
+    &__star-3 {
+        z-index: -1;
+        position: absolute;
+        bottom: -50px;
+        right: -69px;
+
+    }
+
+    &__star-4 {
+        z-index: -1;
+        position: absolute;
+        bottom: -69px;
+        right: 31px;
     }
 
 
