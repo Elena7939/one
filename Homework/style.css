@@ -18,11 +18,16 @@ a {
 }
 
 .index-top {
-  height: 800px;
+  height: 710px;
   background-image: url(img/top.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow-x: clip;
+}
+.index-top__top {
+  position: relative;
+  z-index: 2;
 }
 .index-top__title {
   padding-top: 196px;
@@ -71,12 +76,58 @@ a {
   background: rgb(255, 255, 255);
   transition: 0.5s ease-in-out;
 }
+.index-top__star-big {
+  position: absolute;
+  right: -607px;
+  top: -333px;
+  z-index: -1;
+}
+.index-top__star-1 {
+  z-index: -1;
+  position: absolute;
+  right: 224px;
+  bottom: -96px;
+}
+.index-top__star-2 {
+  z-index: -1;
+  position: absolute;
+  right: 334px;
+  bottom: -20px;
+}
+.index-top__star-3 {
+  z-index: -1;
+  position: absolute;
+  top: 93px;
+  left: -57px;
+}
+.index-top__star-4 {
+  z-index: -1;
+  position: absolute;
+  top: 68px;
+  left: 36px;
+}
+.index-top__star-mob {
+  display: none;
+}
+.index-top__animation {
+  width: 3220px;
+  height: 90px;
+}
+.index-top__animation-strip {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 
 .index-game {
   background-image: url(img/top-2.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.index-game__head-box {
+  position: relative;
+  z-index: 2;
 }
 .index-game__game {
   border-radius: 30px;
@@ -180,19 +231,40 @@ a {
   letter-spacing: 0px;
   text-align: left;
 }
+.index-game__star-1 {
+  z-index: -1;
+  position: absolute;
+  top: 110px;
+  right: -229px;
+}
+.index-game__star-2 {
+  z-index: -1;
+  position: absolute;
+  top: 824px;
+  left: -78px;
+}
+.index-game__star-3 {
+  z-index: -1;
+  position: absolute;
+  top: 771px;
+  left: -93px;
+}
 
 .index-mini {
   background-image: url(img/top-2.jpeg);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: center;
   background-size: cover;
   padding-bottom: 144px;
+  overflow-x: clip;
 }
 .index-mini__img {
   width: 600px;
   height: 500px;
 }
 .index-mini__head {
+  padding-bottom: 70px;
+  padding-top: 46px;
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
@@ -204,9 +276,12 @@ a {
   display: flex;
   gap: 32px;
   flex-direction: column;
+  position: relative;
+  z-index: 2;
 }
 .index-mini__game {
   width: 1200px;
+  height: 500px;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: row;
@@ -271,6 +346,30 @@ a {
   background: rgb(255, 255, 255);
   transition: 0.5s ease-in-out;
 }
+.index-mini__star-1 {
+  z-index: -1;
+  position: absolute;
+  top: -98px;
+  right: 7px;
+}
+.index-mini__star-2 {
+  z-index: -1;
+  position: absolute;
+  top: -65px;
+  right: -71px;
+}
+.index-mini__star-3 {
+  z-index: -1;
+  position: absolute;
+  bottom: -50px;
+  right: -69px;
+}
+.index-mini__star-4 {
+  z-index: -1;
+  position: absolute;
+  bottom: -69px;
+  right: 31px;
+}
 
 .footer {
   background-image: url(img/top.jpeg);
@@ -326,6 +425,49 @@ a {
   }
   .index-top__button {
     margin-top: 36px;
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .index-top__star-box {
+    display: none;
+  }
+  .index-top__star-mob {
+    display: block;
+  }
+  .index-top__star-mob-1 {
+    position: absolute;
+    z-index: -1;
+    top: -82px;
+    right: -95px;
+  }
+  .index-top__star-mob-2 {
+    position: absolute;
+    z-index: -1;
+    top: 64px;
+    left: 85px;
+  }
+  .index-top__star-mob-3 {
+    position: absolute;
+    z-index: -1;
+    top: 98px;
+    left: 30px;
+  }
+  .index-top__star-mob-4 {
+    position: absolute;
+    z-index: -1;
+    bottom: -37px;
+    right: 77px;
+  }
+  .index-top__star-mob-5 {
+    position: absolute;
+    z-index: -1;
+    bottom: -83px;
+    right: 25px;
   }
   .index-game {
     display: none;
@@ -385,6 +527,9 @@ a {
     align-items: center;
     text-align: center;
     margin-top: 0px;
+  }
+  .index-mini__star-box {
+    display: none;
   }
   .footer__text {
     color: rgb 0, 0, 0;
