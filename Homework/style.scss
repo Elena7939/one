@@ -22,11 +22,12 @@ a {
 }
 
 .index-top {
-    height: 800px;
+    height: 710px;
     background-image: url(img/top.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    overflow-x: clip;
 
     &__top {
         position: relative;
@@ -130,6 +131,17 @@ a {
 
     &__star-mob {
         display: none;
+    }
+
+    &__animation {
+        width: 3220px;
+        height: 90px;
+    }
+
+    &__animation-strip {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
 }
@@ -293,10 +305,11 @@ a {
 
 .index-mini {
     background-image: url(img/top-2.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
     background-size: cover;
     padding-bottom: 144px;
+    overflow-x: clip;
 
     &__img {
         width: 600px;
